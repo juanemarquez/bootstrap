@@ -3,8 +3,13 @@
     padding: 0;
 }
 
+// variables
+$altura: 300px;
+$color1: #fff;
+$color2: orangered;
+// fin variables
 .logo{
-    border: 2px solid #fff;
+    border: 2px solid $color1;
 }
 
 .jumbotron{
@@ -37,7 +42,7 @@ img{
     height: 280px;
 }
 .n-left{
-    height: 300px;
+    height: $altura;
     text-align: center;
 }
 
@@ -45,7 +50,7 @@ img{
     text-align: center;
 }
 .n-right{
-    height: 300px;
+    height: $altura;
     text-align: center;
 }
 .n-right-text{
@@ -53,7 +58,7 @@ img{
 }
 
 .n-center{
-    height: 300px;
+    height: $altura;
     text-align: center;
 }
 .n-center-text{
@@ -61,7 +66,7 @@ img{
 }
 
 footer{
-    color: #fff;
+    color: $color1;
     margin-top: 25px;
     margin-top: 35px;
     height: 25px;
@@ -77,16 +82,16 @@ fieldset legend{
 /* pseudoclases */
 
 p::selection{
-    color: orangered;
+    color: $color2;
     background-color: black;
 }
 
 h2::selection{
     color: black;
-    background-color: orangered;
+    background-color: $color2;
 }
 
 .form-control:focus{
-    border-color: orangered;
-    box-shadow: inset 0 1px 1px orangered, 0 0 3px orangered;
+    border-color: $color2;
+    box-shadow: inset 0 1px 1px $color2, 0 0 3px $color2;
 }

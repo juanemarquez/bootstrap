@@ -78,9 +78,18 @@ fieldset legend {
 }
 
 /* pseudoclases */
+p::-moz-selection {
+  color: orangered;
+  background-color: black;
+}
 p::selection {
   color: orangered;
   background-color: black;
+}
+
+h2::-moz-selection {
+  color: black;
+  background-color: orangered;
 }
 
 h2::selection {
@@ -90,7 +99,7 @@ h2::selection {
 
 .form-control:focus {
   border-color: orangered;
-  box-shadow: inset 0 1px 1px orangered, 0 0 3px orangered;
+  -webkit-box-shadow: inset 0 1px 1px orangered, 0 0 3px orangered;
+          box-shadow: inset 0 1px 1px orangered, 0 0 3px orangered;
 }
-
 /*# sourceMappingURL=estilos.css.map */
