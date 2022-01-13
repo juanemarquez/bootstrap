@@ -76,11 +76,6 @@ fieldset legend{
 
 /* pseudoclases */
 
-.container-fluid p::first-letter{
-    color: black;
-    font-size: 30px;
-}
-
 p::selection{
     color: orangered;
     background-color: black;
