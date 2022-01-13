@@ -1,92 +1,96 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.logo{
-    border: 2px solid #fff;
+.logo {
+  border: 2px solid #fff;
 }
 
-.jumbotron{
-    background-image: url(img/main.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    margin: 0;
+.jumbotron {
+  background-image: url(img/main.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  margin: 0;
 }
 
-h1{
-    text-align: center;
-    text-shadow: 0 0 5px #222;
+h1 {
+  text-align: center;
+  text-shadow: 0 0 5px #222;
 }
 
-.jumbotron{
-    border-radius: 0 !important;
-}
-.jumbotron p{
-    text-align: center;
+.jumbotron {
+  border-radius: 0 !important;
 }
 
-.mp{
-    margin-top: 35px;
-    margin-bottom: 35px;
-    text-align: center;
+.jumbotron p {
+  text-align: center;
 }
 
-img{
-    height: 280px;
-}
-.n-left{
-    height: 300px;
-    text-align: center;
+.mp {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
 }
 
-.n-left-text{
-    text-align: center;
-}
-.n-right{
-    height: 300px;
-    text-align: center;
-}
-.n-right-text{
-    text-align: center;
+img {
+  height: 280px;
 }
 
-.n-center{
-    height: 300px;
-    text-align: center;
-}
-.n-center-text{
-    text-align: center;
+.n-left {
+  height: 300px;
+  text-align: center;
 }
 
-footer{
-    color: #fff;
-    margin-top: 25px;
-    margin-top: 35px;
-    height: 25px;
+.n-left-text {
+  text-align: center;
 }
 
-
-fieldset legend{
-    text-align: center;
-    margin: 35px;
+.n-right {
+  height: 300px;
+  text-align: center;
 }
 
+.n-right-text {
+  text-align: center;
+}
+
+.n-center {
+  height: 300px;
+  text-align: center;
+}
+
+.n-center-text {
+  text-align: center;
+}
+
+footer {
+  color: #fff;
+  margin-top: 25px;
+  margin-top: 35px;
+  height: 25px;
+}
+
+fieldset legend {
+  text-align: center;
+  margin: 35px;
+}
 
 /* pseudoclases */
-
-p::selection{
-    color: orangered;
-    background-color: black;
+p::selection {
+  color: orangered;
+  background-color: black;
 }
 
-h2::selection{
-    color: black;
-    background-color: orangered;
+h2::selection {
+  color: black;
+  background-color: orangered;
 }
 
-.form-control:focus{
-    border-color: orangered;
-    box-shadow: inset 0 1px 1px orangered, 0 0 3px orangered;
+.form-control:focus {
+  border-color: orangered;
+  box-shadow: inset 0 1px 1px orangered, 0 0 3px orangered;
 }
+
+/*# sourceMappingURL=estilos.css.map */
