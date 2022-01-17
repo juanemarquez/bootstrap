@@ -10,6 +10,7 @@ $color2: orangered;
 // fin variables
 .logo{
     border: 2px solid $color1;
+    padding: 5px;
 }
 
 .jumbotron{
@@ -78,6 +79,28 @@ fieldset legend{
     margin: 35px;
 }
 
+.contacto{
+    height: 20%;
+    width: 100%;
+}
+
+.contacto__imagen{
+    height: 70px;
+    width: 100px;
+    float: left;
+}
+.contacto__imagen__numero{
+    height: 25%;
+    width: 25%;
+    display: inline-block;
+    font-size: 30px;
+    text-align: left;
+    color: black;
+}
+
+.btn-enviar{
+    padding: 2px;
+}
 
 /* pseudoclases */
 
