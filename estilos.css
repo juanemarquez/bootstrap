@@ -82,7 +82,6 @@ fieldset legend {
   padding: 2px;
 }
 
-
 /* pseudoclases */
 p::-moz-selection {
   color: orangered;
@@ -107,5 +106,16 @@ h2::selection {
   border-color: orangered;
   -webkit-box-shadow: inset 0 1px 1px orangered, 0 0 3px orangered;
           box-shadow: inset 0 1px 1px orangered, 0 0 3px orangered;
+}
+
+#imgCont {
+  height: 70px;
+  width: auto;
+}
+
+.pCont {
+  font-size: 1.875rem;
+  text-align: left;
+  color: black;
 }
 /*# sourceMappingURL=estilos.css.map */
