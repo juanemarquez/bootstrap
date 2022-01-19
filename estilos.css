@@ -82,6 +82,7 @@ fieldset legend {
   padding: 2px;
 }
 
+
 /* pseudoclases */
 p::-moz-selection {
   color: orangered;
