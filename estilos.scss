@@ -47,6 +47,11 @@ img{
     text-align: center;
 }
 
+@mixin size {
+    height: $altura;
+    text-align: $position;
+}
+
 .n-left-text{
     text-align: center;
 }
@@ -61,7 +66,8 @@ img{
 }
 
 .n-center{
-    @extend .n-left;
+    @include size($altura, center)
+    // @extend .n-left;
     // height: $altura;
     // text-align: center;
 }
