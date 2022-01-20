@@ -51,19 +51,23 @@ img{
     text-align: center;
 }
 .n-right{
-    height: $altura;
-    text-align: center;
+    @extend .n-left;
+    // height: $altura;
+    // text-align: center;
 }
 .n-right-text{
-    text-align: center;
+    @extend .n-center-text;
+    // text-align: center;
 }
 
 .n-center{
-    height: $altura;
-    text-align: center;
+    @extend .n-left;
+    // height: $altura;
+    // text-align: center;
 }
 .n-center-text{
-    text-align: center;
+    @extend .n-center-text;
+    // text-align: center;
 }
 
 footer{
