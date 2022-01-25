@@ -108,4 +108,11 @@ h2::selection {
   text-align: left;
   color: black;
 }
+
+@media only screen and (min-width:320px) and (max-width:600px){
+  .jumbotron h1{
+      text-shadow: none;
+      color: rgb(71, 69, 69);
+  }
+}
 /*# sourceMappingURL=estilos.css.map */
